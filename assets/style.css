@@ -18,6 +18,12 @@ body {
     font-family: 'Lato' , sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'oswald' , sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 /* Header */
 header {
@@ -36,12 +42,7 @@ header a{
     color: inherit;
 }
 
-h1{
-    font-family: 'oswald' , sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 #menu {
     font-size: 110%;
@@ -93,8 +94,42 @@ main {
 #hero{
     height: 600px;
     width: 100%;
-    background: url("../assets/images/hacks-m.jpg") no-repeat center center/cover;
+    background: url("../assets/images/Ideas.jpg") no-repeat center center/cover;
+    position: relative;
 }
+
+#cover-text {
+    /* Final rgba value sets the ocpacity to it is semi-transprent */
+    background-color: rgba(243, 208, 36, 0.776);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 5%;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+/*Reasons section*/
+#reasons {
+    width:90%;
+    margin:20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#benefits-time-saving > div,
+#benefits-
+
+
+
 
 /* Footer */
 #social-networks {
@@ -143,6 +178,12 @@ main {
 main {
     /* push main content down to accomodate larger header */
     margin-top: 79px;
+   }
+
+   /* Hero */
+   #cover-text {
+    width: 300px;
+    right: 50px;
    }
 }
 
