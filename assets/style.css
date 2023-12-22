@@ -215,14 +215,14 @@ main {
 
 
 /*Reasons section */
-#benfits-physical,
+#benfits-time-saving,
 #benefits-mental {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-#benfits-physical > div,
+#benfits-time-saving > div,
 #benefits-mental > div {
     width: 75%;
 }
@@ -262,7 +262,7 @@ main {
             align-self: flex-start;
         }
 
-        #benefits-physical > div {
+        #benefits-time-saving > div {
             align-self: flex-end;
         }
     }
